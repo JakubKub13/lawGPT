@@ -88,7 +88,7 @@ export default function Home() {
                       />
                       <div className="w-auto max-w-xl break-words bg-white rounded-b-xl rounded-tr-xl text-black p-6 shadow-[0_10px_40px_0px_rgba(0,0,0,0.15)]">
                         <p className="text-sm font-medium text-violet-500 mb-2">
-                          AI assistant
+                          Lawbot
                         </p>
                         {message.content}
                         {message.links && (
@@ -116,12 +116,12 @@ export default function Home() {
                 case "user":
                   return (
                     <div
-                      className="w-auto max-w-xl break-words bg-white rounded-b-xl rounded-tl-xl text-black p-6 self-end shadow-[0_10px_40px_0px_rgba(0,0,0,0.15)]"
+                      className="w-auto max-w-xl break-words bg-blue-100 rounded-b-xl rounded-tl-xl text-black p-6 self-end shadow-[0_10px_40px_0px_rgba(0,0,0,0.15)]"
                       key={idx}
                       ref={isLastMessage ? lastMessageRef : null}
                     >
                       <p className="text-sm font-medium text-violet-500 mb-2">
-                        You
+                        Používateľ
                       </p>
                       {message.content}
                     </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 />
                 <div className="w-auto max-w-xl break-words bg-white rounded-b-xl rounded-tr-xl text-black p-6 shadow-[0_10px_40px_0px_rgba(0,0,0,0.15)]">
                   <p className="text-sm font-medium text-violet-500 mb-4">
-                    AI assistant
+                    Lawbot
                   </p>
                   <LoadingDots />
                 </div>

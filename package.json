@@ -19,6 +19,8 @@
     "follow-redirects": "^1.15.2",
     "langchain": "^0.0.127",
     "next": "13.4.13",
+    "openai": "^3.3.0",
+    "pdf-parse": "^1.1.1",
     "pinecone-client": "^1.1.0",
     "postcss": "8.4.27",
     "react": "18.2.0",
